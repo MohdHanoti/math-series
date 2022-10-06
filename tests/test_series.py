@@ -3,6 +3,11 @@ from math_series.series import fibonacci
 from math_series.series import lucas
 from math_series.series import sum_series
 
+#--------------------------------------------------------------
+'''
+here is some tests for fibonacci series
+it contains some normal tests and edge tests
+'''
 def test_fibonacci_01():
     actual=fibonacci(0)
     excepted=0
@@ -35,9 +40,12 @@ def test_fibonacci_06():
     assert actual == excepted
 
 
-
+#--------------------------------------------------------------
 # lucas tests:
-#---------------------------------------------------------
+'''
+here is some tests for lucas series
+it contains some normal tests and edge tests
+'''
 def test_lucas_01():
     actual=lucas(0)
     excepted=2
@@ -67,9 +75,12 @@ def test_lucas_06():
     actual=lucas(-1)
     excepted="you have to enter positive int value"
     assert actual == excepted    
-
+#--------------------------------------------------------------
 #sum series tests:
-#---------------------------------------------------------
+'''
+here is some tests for the general series
+it contains some normal tests and edge tests
+'''
 def test_sum_series_01():
     actual=sum_series(100,0,0)
     excepted = 0
