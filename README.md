@@ -28,3 +28,5 @@ expected time: 2 hours
 actual time: 2 hours
 
 PR: https://github.com/MohdHanoti/math-series/pull/1
+
+PR2: https://github.com/MohdHanoti/math-series/pull/2
